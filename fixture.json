@@ -1,0 +1,53 @@
+{
+  "NetworkInterfaces": [
+    {
+      "AvailabilityZone": "us-west-2a",
+      "Description": "ELB app/load-balancer-one/123",
+      "NetworkInterfaceId": "eni-1",
+      "Status": "in-use",
+      "VpcId": "vpc-1"
+    },
+    {
+      "AvailabilityZone": "us-west-2a",
+      "Description": "ELB app/load-balancer-one/123",
+      "NetworkInterfaceId": "eni-2",
+      "Status": "in-use",
+      "VpcId": "vpc-1"
+    },
+    {
+      "AvailabilityZone": "us-west-2a",
+      "Description": "ELB load-balancer-two",
+      "NetworkInterfaceId": "eni-3",
+      "Status": "in-use",
+      "VpcId": "vpc-2"
+    },
+    {
+      "AvailabilityZone": "us-west-2b",
+      "Description": "ELB load-balancer-two",
+      "NetworkInterfaceId": "eni-4",
+      "Status": "in-use",
+      "VpcId": "vpc-2"
+    },
+    {
+      "AvailabilityZone": "us-west-2b",
+      "Description": "ELB load-balancer-two",
+      "NetworkInterfaceId": "eni-5",
+      "Status": "in-use",
+      "VpcId": "vpc-2"
+    },
+    {
+      "AvailabilityZone": "us-west-2a",
+      "Description": "ELB load-balancer-three",
+      "NetworkInterfaceId": "eni-6",
+      "Status": "detaching",
+      "VpcId": "vpc-2"
+    },
+    {
+      "AvailabilityZone": "us-west-2a",
+      "Description": "ELB load-balancer-three",
+      "NetworkInterfaceId": "eni-7",
+      "Status": "in-use",
+      "VpcId": "vpc-2"
+    }
+  ]
+}
